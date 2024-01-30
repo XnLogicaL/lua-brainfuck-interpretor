@@ -120,10 +120,10 @@ end
 
 function INTERPRETOR(SOURCE: string)
 	for INDEX = 1, SOURCE:len() do
-		local INSTRUCTION = SOURCE:sub(INDEX, INDEX)
+		local TOKEN = SOURCE:sub(INDEX, INDEX)
 
-		if TOKENS[INSTRUCTION] == nil then
-			warn(("brainf#ck interpreter warning: invalid character [%s] at index %s"):format(INSTRUCTION, INDEX))
+		if TOKENS[TOKEN] == nil then
+			warn(("brainf#ck interpreter warning: invalid character [%s] at index %s"):format(TOKEN, INDEX))
 			continue
 		end
 
