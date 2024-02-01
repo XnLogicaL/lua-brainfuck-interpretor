@@ -1,6 +1,7 @@
 # lua-brainfuck++
-A brainfuck(++) interpretor made entirely in lua (help me)
-What is brainfuck++ you may ask?
+A brainfuck(++) interpretor made entirely in luau (help me)
+
+## What is brainfuck++ you may ask?
 - Well, it's just brainfuck but with extra features lol
 
 # Syntax
